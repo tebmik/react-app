@@ -1,8 +1,3 @@
-Created a new component named GoogleAuth
+created componentDidMount to hold clientId and data. 
 
-this will eventually be a button for the user
-
-an outside provider to Authenticate and correctly handle identification.
-
-
-
+its now possible to interact with the OAuth lib through the console using the gapi documentation.
