@@ -1,12 +1,8 @@
-Created a new component named Header 
+Created a new component named GoogleAuth
 
-imported Link from react-router-dom
+this will eventually be a button for the user
 
-Styled it using Semantic-ui.
+an outside provider to Authenticate and correctly handle identification.
 
-nested Header component inside BrowserRouter in App.js so it can be seen for each url change
 
-eg. 
-    /streams/show
-    /streams/new
-    /streams/edit etc.
+
