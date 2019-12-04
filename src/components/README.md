@@ -1,9 +1,5 @@
-initialized the state to null
+connecting with action creators
 
-set auth variable to interact with the lib.
+set our connect() and pass through null until mapStateToProps() is set
 
-created an onAuthChange helper function to call the current user state. (whether they are signedin/out)
-
-rendered the button to either show signIn or signOut
-
-created an onclick event Handler for both of the potential buttons and set a helper function for both, signIn/signOut methods from gpai.
+the button will temporarily be out of action 
