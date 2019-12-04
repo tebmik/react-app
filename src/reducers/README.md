@@ -1,2 +1,3 @@
-we want to return new state object and set the boolean.
-do not mutate the state.
+imported authReducer to the reducer index file 
+
+set combineReducers to hold authReducer
