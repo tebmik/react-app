@@ -1,1 +1,2 @@
-set a named component and imported combineReducers from redux lib
+we want to return new state object and set the boolean.
+do not mutate the state.
