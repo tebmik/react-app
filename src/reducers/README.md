@@ -1,0 +1,1 @@
+set a named component and imported combineReducers from redux lib
