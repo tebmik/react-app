@@ -1,0 +1,1 @@
+created new stream component boiler plates for page navigation 

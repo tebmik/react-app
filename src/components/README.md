@@ -1,0 +1,1 @@
+in App.js, imported all stream components and set them on individual paths using "Route"
