@@ -15,5 +15,5 @@ export const signOut = () => {
 };
 
 export const createStreams = formValue => async dispatch => {
-    streams.post("/streams", formValue);
+    const response = await streams.post("/streams", formValue);
 };
