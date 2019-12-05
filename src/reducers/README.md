@@ -1,7 +1,1 @@
-import mis-spell. 
-
-import authReducer from "./authReducer";
-
-should be... "./authReducers";
-
-import authReducer from "./authReducers";
+import the types from the actions folder and replace the strings with the named export variables.
