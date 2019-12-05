@@ -1,3 +1,7 @@
-imported authReducer to the reducer index file 
+import mis-spell. 
 
-set combineReducers to hold authReducer
+import authReducer from "./authReducer";
+
+should be... "./authReducers";
+
+import authReducer from "./authReducers";
