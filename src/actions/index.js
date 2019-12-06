@@ -1,3 +1,5 @@
+import streams from "../apis/streams";
+
 import { 
     SIGN_IN, 
     SIGN_OUT, 
@@ -6,9 +8,9 @@ import {
     FETCH_STREAM,
     DELETE_STREAM,
     EDIT_STREAM 
-} from "./types.js";
+} from "./types";
 
-import streams from "../apis/streams";
+
 
 export const signIn = (userId) => {
     return {
@@ -23,20 +25,20 @@ export const signOut = () => {
     }
 };
 
-export const createStreams = formValue => async dispatch => {
+export const createStream = formValue => async dispatch => {
     const response = await streams.post("/streams", formValue);
 
     dispatch({type:CREATE_STREAM, payload:response.data })
 };
 
 export const fetchStreams = () => async dispatch => {
-    const response = await streams.post("/streams");
+    const response = await streams.get("/streams");
 
     dispatch({type:FETCH_STREAMS, payload:response.data })
 };
 
 export const fetchStream = id => async dispatch => {
-    const response = await streams.post(`/streams/${id}`);
+    const response = await streams.get(`/streams/${id}`);
 
     dispatch({type:FETCH_STREAM, payload:response.data })
 };
